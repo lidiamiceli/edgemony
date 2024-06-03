@@ -1,0 +1,1 @@
+const pippo = 'pippo';
