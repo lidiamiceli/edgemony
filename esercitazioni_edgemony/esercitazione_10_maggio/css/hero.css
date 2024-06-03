@@ -1,0 +1,40 @@
+
+.hero {
+    background-image: url("../img/hero_img.png");
+    background-size: cover;
+    background-position: center;
+    color: #212121;
+    text-align: center;
+    padding: 100px 0; 
+    width: 100%;
+    object-fit: cover;
+    font-weight: 200;
+}
+
+.hero h1 {
+    font-size: 3em; 
+    margin-bottom: 20px; 
+}
+
+.hero p {
+    font-size: 1.5em; 
+    margin-bottom: 30px; 
+}
+.hero a{
+    display: inline;
+     color: #f6eee3; 
+     text-decoration: none; 
+     border-radius: 5px; 
+     transition: background-color 0.3s ease; 
+     border: 1px solid var(--color-primary);
+     padding: 10px;
+     background-color: var (--color-primary);
+ }
+ 
+ .hero a:hover {
+     background-color: var(--color-accent); 
+     transform: traslate (20px, 40px);
+     border: var(--color-accent);
+ }
+
+

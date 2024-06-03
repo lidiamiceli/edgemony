@@ -1,0 +1,67 @@
+*{
+    font-family: "Roboto Mono", monospace;
+}
+
+.text1{
+    text-align: center;
+    
+ }
+
+ .text_humanthon{
+    margin-top: 100px;
+    font-weight: 200;
+    margin-right: 20px;
+}
+
+.text_heraclea{
+    margin-top: 100px;
+    font-weight: 200;
+    margin-left: 20px;
+}
+
+h1{
+    color: varr(--color-primary);
+    font-weight: 300;
+  }
+
+h2{
+    color: var(--color-primary);
+    font-weight: 200;
+}
+
+h3{
+    color: var(--color-primary);
+    font-weight: 100;
+}
+
+
+.description{
+    font-weight: 200;
+    font-style: normal;
+    color:  var(--color-primary);
+    margin: 50px;
+    text-align: center;
+}
+.description2{
+    text-align: left;
+    justify-content: center;
+}
+
+.description3{
+    text-align: right;
+    justify-content: center;
+}
+.text_humanthon{
+    text-align: center;
+    color: var(--color-primary);
+}
+
+.text_heraclea{
+    text-align: center;
+}
+
+.description_about{
+    margin: 40px;
+    font-weight: 200;
+    font-size: 15px;
+}

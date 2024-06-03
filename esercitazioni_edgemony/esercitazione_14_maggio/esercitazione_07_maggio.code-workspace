@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../esercitazione_07_maggio"
+		},
+		{
+			"path": "../esercitazione_10_maggio"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "esercitazione_09_maggio"
+	}
+}

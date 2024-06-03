@@ -1,0 +1,77 @@
+.description2 a{
+    display: inline;
+    color: var(--color-light); 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+    border: 1px solid var(--color-primary);
+    padding: 10px;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.description3 a{
+    color:var(--color-light); 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+    border: 1px solid var(--color-primary);
+    padding: 10px;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.description2 a:hover{
+    background-color: var(--color-accent); 
+    transform: traslate (20px, 40px);
+    color: var(--color-primary);
+    border: var(--color-accent);
+}
+
+.description3 a:hover{
+    background-color: var(--color-secondary); 
+    transform: traslate (20px, 40px);
+    color: var(--color-primary);
+    border: var(--color-secondary);
+}
+
+.hero a {
+    display: inline;
+     color: var(--color-light); 
+     text-decoration: none; 
+     border-radius: 5px; 
+     transition: background-color 0.3s ease; 
+     border: 1px solid var(--color-primary);
+     padding: 10px;
+     background-color: var(--color-primary);
+ }
+ 
+ .hero a:hover {
+     background-color: var(--color-accent); 
+     transform: traslate (20px, 40px);
+     color: var(--color-primary);
+ }
+
+ .description_about a{
+    display: inline;
+    color: var(--color-light); 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+    border: 1px solid var(--color-primary);
+    padding: 10px;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+ }
+
+ .description_about a:hover{
+    background-color: var(--color-secondary); 
+    transform: traslate (20px, 40px);
+    color: var(--color-primary);
+    border: var(--color-secondary);
+ }

@@ -1,0 +1,188 @@
+*{
+    font-family: 'Montserrat', sans serif;
+}
+
+body{
+    background-color: #FFF;
+}
+
+header {
+    background-image: url('img/img_header.jpeg');
+    background-size: cover; 
+    height: 300px; 
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-bottom: 250px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+
+h1{
+   
+    text-align: center;
+    font-weight: 500;
+}
+
+h2, h5{
+    text-align: center;
+    font-weight: 400;
+}
+
+p{
+    text-align: center;
+    margin: 20px;
+}
+
+header{
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: 200px;
+}
+
+.link {
+    text-align: center;
+}
+
+form{
+    text-align: center;
+
+}
+
+.container{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer_text{
+    font-size: 14px;
+}
+
+ .card {
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 50px;
+    margin: 40px;
+    width: 200px;
+    text-align: center;
+    width: 45%;
+    max-width: 800px;
+    box-sizing: border-box;
+}
+
+
+.card-text {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    display: inine-block;
+    background-color: #5461eb;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.contact-sections {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-text, .contact-form {
+    width: 45%;
+}
+.contact-form form {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333333;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #5461eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+@media only screen and(max-width: 768px){
+
+}
+
+@media only screen and(min-width: 1024px){
+    .burger{
+        display: none;
+    }
+}
+
+/* @media only screen and(max-width: 1023px){
+    .burger{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        background-color: grey;
+    }
+} */

@@ -1,0 +1,126 @@
+
+.get-started{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: var(--color-secondary);
+}
+
+.get-started-intro {
+    text-align: center;
+    max-width: 760px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.get-started-intro h2 {
+    color: var(--color-primary);
+    margin-bottom: 20px;
+}
+
+.get-started-intro p {
+    color: var(--color-accent);
+}
+
+.get-started-items{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.get-started-card{
+    text-align: center;
+    margin-bottom: 40px;
+    max-width: 100%;
+}
+
+.get-started-card img {
+    max-width: 48px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.get-started-card p {
+    color: var(--color-primary);
+}
+
+.get-started-buttons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.button-flat{
+    border: 1px solid var(--color-primary);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    font-weight: 100;
+}
+
+.get-started-buttons a{
+    transition: background-color 0.3s ease; 
+    display: inline;
+    color: var(--color-light); 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+    border: 1px solid var(--color-primary);
+    padding: 10px;
+    background-color: var(--color-primary);
+}
+
+.get-started-buttons a:hover{
+        background-color: var(--color-accent); 
+        transform: traslate (20px, 40px);
+        border: var(--color-accent);
+        color: var(--color-primary);
+}
+
+.fa-linkedin{
+    font-size: 40px; 
+    color: var(--color-primary);
+    margin: 20px;
+}
+
+.fa-square-github{
+    font-size: 40px;
+    color: var(--color-primary);
+    margin: 20px;
+}
+
+@media (min-width: 1024px) {
+    .get-started-items {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .get-started-card {
+        width: 100%;
+        max-width: 280px;
+        /* padding-left: 10px;
+        padding-right: 10px; */
+    }
+}
+
+@media (min-width: 1024px){
+    .get-started-items{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .get-started-card{
+        max-width:200px;
+        width: 100%
+    }
+}
+
+
