@@ -1,20 +1,51 @@
-.counter{
-    font-size: 20px;
-    margin: 0 auto;
-    display: flex; 
-    align-items: center;
-    background-color: #9FA4C4;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 5px 5px green;
-
+*{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.start, .stop{
-    padding: 10px;
-    display: flex;
-    margin: 12px;
-    border-radius: 10px;
-    font-size: 16px;
-    background-color: #C7F0BD; 
+h1{
+ text-align: center;
+ margin-top: 20px;
+}
+
+body{
+background-image: url(../img/img.png);
+margin: 0;                            
+height: 100vh;
+background-size: cover;               
+  background-position: center;     
+  background-repeat: no-repeat;
+}
+
+.clock{
+    width: 300px;
+    height: 300px;
+    background-color: #E3DCC2;
+    border-radius: 50%;
+    display: flex;            
+    justify-content: center;  
+    align-items: center;      
+    color: white;             
+    text-align: center;  
+    margin: 0 auto;     
+    font-size: 30px;
+    color: #000000;
+    border: 1px solid #aa7632;
+}
+
+.button-container {
+    display: flex;                
+    justify-content: center;      
+    align-items: center;         
+    gap: 10px;         
+    height: 10vh;                
+}
+
+#startBtn, #stopBtn{
+padding: 10px 20px;          
+font-size: 20px; 
+border-radius: 20px;
+color: #51513D;
+background-color: #E3DCC2;
 }
