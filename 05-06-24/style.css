@@ -1,0 +1,71 @@
+*{
+    font-family: "Khand", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+}
+body{
+    background-color: #2F323A;
+}
+
+#parent{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+#button1, #button2, #button3{
+    padding: 12px;
+    background-color: #DEBAC0;
+    border-radius: 12px;
+    border: 1px solid #2F323A;
+}
+
+.modale{
+    display: flex;
+    justify-content: center;
+}
+
+#myModal{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#openModalBtn{
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #E39EC1;
+    border: 1px solid #2F323A;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    margin-top: 20px; 
+}
+.modal-content {
+    background-color: #DEBAC0;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #2F323A;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 2px 2px;
+}
+
+#timer{
+    margin-top: 10px;
+}
+
+#yesBtn, #noBtn{
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #E39EC1;
+    border: 1px solid #2F323A;
+
+}

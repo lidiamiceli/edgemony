@@ -5,16 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="../style.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>EVENT BUBBLING</title>
 </head>
 <body>
     <div id="parent">
-        <button id="button1">Button 1</button>
-        <button id="button2">Button 2</button>
-        <button id="button3">Button 3</button>
+        <button id="button1">BUTTON 1</button>
+        <button id="button2">BUTTON 2</button>
+        <button id="button3">BUTTON 3</button>
     </div>
+
+    <div class="modale">
+    <button id="openModalBtn">APRI</button>
+</div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Vuoi procedere?</p>
+            <div class="button container">
+            <button id="yesBtn">SI</button>
+            <button id="noBtn">NO</button>
+        </div>
+        <div class="timer" id="timer">Questa finestra si chiuderà tra 5 secondi</div>
+        </div>
+    </div>
+
+
     <script src="../index.js"></script>
 </body>
 </html>
