@@ -2,7 +2,9 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Rubik", sans-serif;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     box-sizing: border-box;
 }
 
@@ -34,9 +36,9 @@ body{
 }
 
 .top-header img {
-    width: 110px;
+    width: 100px;
     height: 110px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .menu {
@@ -73,7 +75,7 @@ nav ul li a:hover {
 .title{
     font-weight: 400;
     color: aliceblue;
-    padding-top: 25px;
+    padding-top: 32px;
 }
 
 .btn-add{
@@ -136,10 +138,9 @@ nav ul li a:hover {
     gap: 10px;
     border-radius: 20px;
     border: 1px solid #3d3d3d;
-    background: rgb(129,142,217);
-    background: linear-gradient(90deg, rgba(129,142,217,1) 0%, rgba(110,29,161,0.49749629080118696) 100%);
+    background: rgb(0,0,0);
+background: linear-gradient(326deg, rgba(0,0,0,0.5326505602240896) 0%, rgba(10,10,11,1) 0%, rgba(84,86,89,0.7855579868708972) 100%);
     font-weight: 300;
-    /*togliere box shadow*/
     overflow: hidden;
     transition: transform 0.3s ease;
     margin: 20px;
@@ -324,11 +325,16 @@ nav ul li a:hover {
 
 /* START FAV ARTIST */
 .sub-title1 {
-        padding: 20px;
-        margin-top: 10px;
+        padding: 14px;
+        margin-top: 20px;
         font-weight: 400;
-        font-size: 20px;
+        font-size: 25px;
         color: aliceblue;
+        font-family: "Changa", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+
 }
 
 .sub-title {
@@ -372,11 +378,11 @@ img.events:hover{
 }
 
 h3 {
-    margin-top: 10px;
+    margin-top: 2px;
     text-align: center;
     color: white;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 /*BOTTONI */
@@ -398,6 +404,9 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* #logo-footer {

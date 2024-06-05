@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const renderListTypeArtist = () => {
         return artistTypes.forEach (type => {
-            const btnType = buttonGen(`Type -  ${type}`,type);
+            const btnType = buttonGen(`Filter -  ${type}`,type);
             btnType.addEventListener("click", function (){
             const newArray = artistForFun.filter(artistForFunsingolo =>artistForFunsingolo.type === this.id)
             console.log (newArray.length ? newArray : "Non esiste un'artista con questo tipo");
