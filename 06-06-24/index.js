@@ -23,6 +23,10 @@ function fetchProducts() {
           const price = document.createElement('p');
           price.className = 'card-price';
           price.textContent = `$${product.price}`;  
+
+          const description = document.createElement('');
+          price.className = 'card-price';
+          price.textContent = `$${product.price}`; 
   
           
           card.appendChild(title); 
