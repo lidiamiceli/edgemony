@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>14-06-24</title>
+  </head>
+  <body>
+    <h1>Compila il form</h1>
+
+    <form id="searchForm" onsubmit="return false">
+      <input class="check-id" type="text" placeholder="SELECT ID" required/>
+      <button type="button" class="check-id-button">Controlla</button>
+    </form>
+
+    <form id="productForm" onsubmit="return false">
+      <input  class="title" type="text" placeholder="TITLE" required />
+      <p class="title-error"></p>
+      <input class="price" type="number" placeholder="PRICE" required />
+      <p class="price-error"></p>
+      <input class="description" type="text" placeholder="DESCRIPTION" required />
+      <p class="description-error"></p>
+      <input class="category-id" type="number" placeholder="CATEGORY ID" required />
+      <p class="category-error"></p>
+      <input class="images" type="text" placeholder="IMAGES" required />
+      <p class="images-error"></p>
+      <button  class="button-send">Crea Prodotto</button>
+    </form>
+    
+    <div class="main-container"></div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
