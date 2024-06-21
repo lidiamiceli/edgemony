@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./style.css">
+    <title>Travel Voucher App</title>
+</head>
+<body>
+
+    <header id="header-home">
+        <div class="top-header">
+            <div class="menu">
+            <!-- start navbar -->
+                <nav>
+                    <ul>
+                       <li><a href="index.html">HOME</a></li>
+                       <li><a href="voucher.html">OTTIENI 500€</a></li>
+                       <li><a href="viaggi.html">VIAGGI</a></li>
+                       <li><a href="#">CARRELLO</a></li>
+                    </ul>
+                </nav>
+                <!-- end navbar -->
+            </div>
+        </div>
+        <div id="searchbar">
+            <i class="fas fa-search"></i>
+            <input type="text" id="searchInput" placeholder="Cerca per nome..." onkeyup="filterUsers()">
+        </div>
+        <div class="button-container">
+            <button class="category-button">Viaggi</button>
+            <button class="category-button">Sport</button>
+            <button class="category-button">Gourmet</button>
+        </div>
+    </header>
+<main>
+    <div class="section">
+        <h3 id="best">BEST SELLER</h3>
+        <div id="best-seller-cards" class="card-wrapper">
+            <!-- card best seller -->
+        </div>
+   
+    <div class="sections">
+        <h3>VIAGGI</h3>
+        <div id="viaggi-cards" class="card-wrapper">
+            <!--card viaggi -->
+        </div>
+    </div>
+    </div>
+</main>
+
+<footer id="footer">
+    <div class="footer-contatti">
+        <p style="color:#fff"> CONTATTI</p>
+        <div class="footer-contatti-info">
+            <img src="./icone/maps-svgrepo-com.svg" alt="Logo">
+            <p>Via Roma 21, Cattolica Eraclea (AG)
+            </p>
+        </div>
+        <div class="footer-contatti-info">
+            <img src="./icone/telephone-svgrepo-com.svg" alt="Logo">
+            <p>+39 328 0344438
+            </p>
+        </div>
+        <div class="footer-contatti-info">
+            <img src="./icone/email-svgrepo-com.svg" alt="Logo">
+            <p>info@travelwins.eu
+            </p>
+        </div>
+        <div class="footer-contatti-info">
+            <img src="./icone/wireless-svgrepo-com.svg" alt="Logo">
+            <p>41.9558589485,12.3242423</p>
+        </div>
+    </div>
+            <a href="#header-home" class="scroll-to-top"><img style="width: 30px; height: auto;" src="./icone/arrow-up-svgrepo-com.svg"></a>
+        </footer>
+         <!-- end footer -->
+
+<script src="./index.js"></script>
+</body>
+</html>
