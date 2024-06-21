@@ -1,4 +1,3 @@
-//VOUCHER
 document.addEventListener('DOMContentLoaded', () => {
     const calculateAge = (birthDate) => {
         const today = new Date();
@@ -10,14 +9,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         return age;
     };
-    
+
     const randomDate = (start, end) => {
         return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
     };
 
     const generateRandomDateOfBirth = () => {
-        const start = new Date(1949, 0, 1);
-        const end = new Date(1989, 0, 1);
+        const start = new Date(1949, 0, 1); 
+        const end = new Date(1989, 0, 1); 
         return randomDate(start, end).toISOString().split('T')[0];
     };
 
@@ -39,16 +38,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     bonusSection.appendChild(userInfoDiv);
                 } else if (age >= 36 && age <= 64) {
                     reservesSection.appendChild(userInfoDiv);
-                } else {
+                } 
+                else {
                     noBonusSection.appendChild(userInfoDiv);
                 }
             });
+        
         })
         .catch(error => console.error('Error fetching users:', error));
-});
 
-
-//CARDS
     const bestSellerContainer = document.getElementById('best-seller-cards');
     const viaggiContainer = document.getElementById('viaggi-cards');
 
@@ -107,4 +105,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     
     addCardsToContainer(viaggiContainer, viaggiData);
-
+});
