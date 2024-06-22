@@ -12,7 +12,7 @@
 </head>
 <body>
     <header id="header-home">
-        <div class="top-header">
+        <div class="top-header-voucher">
             <div class="menu">
                 <nav>
                     <ul>
@@ -24,32 +24,38 @@
                 </nav>
             </div>
         </div>
-        <div id="searchbar">
-            <i class="fas fa-search"></i>
-            <input type="text" id="searchInput" placeholder="Cerca per nome..." onkeyup="filterUsers()">
-        </div>
-        <div class="button-container">
-            <button class="category-button">Viaggi</button>
-            <button class="category-button">Sport</button>
-            <button class="category-button">Gourmet</button>
-        </div>
     </header>
-<main>
+    <section class="voucher-section">
+        <h2 class="voucher-title">🎉 Complimenti! Hai Vinto un Voucher da 500€ per il Tuo Prossimo Viaggio! 🌍</h2>
+        <div class="voucher-card">
+            <div class="voucher-image"></div>
+            <div class="voucher-content">
+                <h3>Voucher Vinto!</h3>
+                <p>Hai vinto un voucher del valore di 500€ per il tuo prossimo viaggio.</p>
+                <a href="https://example.com/voucher" target="_blank">Clicca qui</a>
+            </div>
+        </div>
+    </section>
+
+<main class="section2">
     <div id="sections">
-        <div id="bonus" class="section">
+        <div id="bonus">
             <h3>Vincitori</h3>
             <!-- utenti con età tra 18 e 35 -->
         </div>
-        <div id="reserves" class="section">
-            <h3>Reserve</h3>
+        <div id="reserves">
+            <h3>Riserve</h3>
             <!-- utenti con età tra 36 e 64 -->
         </div>
-        <div id="no-bonus" class="section">
+        <div id="no-bonus">
             <h3>No Bonus</h3>
             <!-- utenti con età oltre 64 -->
         </div>
     </div>
+</section>
 </main>
+
+
     <footer id="footer">
         <div class="footer-contatti">
             <p style="color:#fff"> CONTATTI</p>

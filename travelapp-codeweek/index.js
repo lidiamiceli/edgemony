@@ -27,7 +27,7 @@ const viaggiContainer = document.getElementById('viaggi-cards');
         const cardContent = document.createElement('div');
         cardContent.classList.add('card-content');
 
-        const cardTitle = document.createElement('h3');
+        const cardTitle = document.createElement('h4');
         cardTitle.textContent = cardData.title;
 
         const cardLink = document.createElement('a');

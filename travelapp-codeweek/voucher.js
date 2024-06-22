@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const generateRandomDateOfBirth = () => {
         const start = new Date(1949, 0, 1); 
-        const end = new Date(2006, 0, 1); 
+        const end = new Date(2005, 0, 1); 
         return randomDate(start, end).toISOString().split('T')[0];
     };
 
@@ -47,3 +47,4 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Error fetching users:', error));
     });
+    
