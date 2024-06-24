@@ -1,0 +1,47 @@
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .app {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .header, .footer {
+            background: #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        .main-container {
+            display: flex;
+            flex: 1;
+        }
+        .main {
+            flex: 1;
+            order: 2;
+            padding: 10px;
+            background: #f0f0f0;
+        }
+        .left {
+            order: 1;
+            flex: 1;
+            padding: 10px;
+            background: #ddd;
+        }
+        .right {
+            order: 3;
+            flex: 1;
+            padding: 10px;
+            background: #ddd;
+        }
+        @media (max-width: 768px) {
+            .main-container {
+                flex-direction: column;
+            }
+            .left, .right {
+                order: initial;
+                flex: initial;
+            }
+        }
