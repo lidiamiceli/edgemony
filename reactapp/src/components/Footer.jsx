@@ -17,14 +17,14 @@ function FooterMenu() {
   const menuItems = [
     {
       label: "About us",
-      children: [{ label: "Company" }, { label: "Careers" }, { label: "Docs" }],
+      children: [{ label: "Magazine" }, { label: "Link" }, { label: "Articles" }],
     },
     {
       label: "Socials",
       children: [
         { label: "Twitter" },
         { label: "Linkedin" },
-        { label: "Github" },
+        { label: "Blog" },
       ],
     },
   ];
