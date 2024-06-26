@@ -1,34 +1,35 @@
-function Header(){
+function Header() {
     return (
-    <header>
+      <header>
         <div className="container">
-             <div className="wrapper">
-                <Menu />
-             </div>
+          <div className="wrapper">
+            <div className="logo">Logo</div>
+            <Menu />
+          </div>
         </div>
-    </header>
+      </header>
     );
-}
-
-function Menu(){
-   
+  }
+  
+  function Menu() {
     return (
-        <nav className="nav">
-                <ul className="list">
-                  <MenuItem />
-                  <MenuItem />
-                </ul>
-                </nav>
+      <nav className="nav">
+        <ul className="list">
+          <MenuItem label={"About us"} />
+          <MenuItem label="Blog" />
+          {MenuItem({ label: "Contacts" })}
+        </ul>
+      </nav>
     );
-}
-
-function MenuItem(){
-    return(
-        <li className="item">
-        <a href="">Home</a>
-        </li>
+  }
+  
+  function MenuItem(props) {
+    const { label, href = "#" } = props;
+    return (
+      <li className="item">
+        <a href="#">{label}</a>
+      </li>
     );
-
-}
-
-export {Header, Menu, MenuItem};
+  }
+  
+  export { Header };
