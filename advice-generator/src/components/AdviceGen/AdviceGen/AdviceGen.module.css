@@ -1,7 +1,7 @@
 .AdviceGen {
-    background: var(--dark-grayish-blue);
-    border-radius: 10px;
-    padding: 2rem;
+    background: rgb(53, 49, 49);
+    border-radius: 12px;
+    padding: 3rem;
     position: relative;
     text-align: center;
     width: 100%;
@@ -11,15 +11,15 @@
   }
   
   .AdviceGen h1 {
-    color: var(--neon-green);
+    color: greenyellow;
     font-size: 0.9rem;
     letter-spacing: 0.1rem;
     margin-bottom: 1rem;
   }
   
   .AdviceGen p {
-    color: var(--light-cyan);
-    font-size: 28px;
+    color: whitesmoke;
+    font-size: 24px;
     line-height: 1.5;
     margin-bottom: 1.5rem;
   }
