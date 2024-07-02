@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './AdviceGen.module.css';
-import Button from './components/Button/Button';
+import Button from './../Button/Button';
 import AdviceList from '../../../assets/AdviceList';
 
 const AdviceGen = () => {

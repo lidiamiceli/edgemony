@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './App.module.css';
-import AdviceGen from './components/AdviceGen/AdviceGen';
+import AdviceGen from './components/AdviceGen/AdviceGen/AdviceGen';
 
 function App() {
   return (
