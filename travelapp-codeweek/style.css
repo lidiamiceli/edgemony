@@ -35,34 +35,40 @@ body {
     
 
 .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #E2784B;
     text-align: center;
     padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
 }
-
 nav ul {
+    display: flex;
+    justify-content: center;
     list-style-type: none;
-    margin-bottom: 60%;
+    margin: 0;
     padding: 10px;
-    
 }
 
 nav ul li {
-    display: inline;
-    
+    margin: 0 10px;
 }
 
 nav ul li a {
-    padding: 10px 50px;
-   color: rgba(49, 47, 47, 0.892);
+    padding: 10px 20px;
+    color: rgba(49, 47, 47, 0.892);
     font-weight: 500;
     text-decoration: none;
-
 }
 
 nav ul li a:hover {
     background-color: var(--color-generalred);
+    color: white;
+    border-radius: 5px;
 }
-
 h1{
     text-align: center;
 }
@@ -146,12 +152,7 @@ main{
     background-color: #e6554d;
 }
 
-.bottom-header{
-    text-align: center;
-    width: 100%;
-    height: 60vh;
-    background-color: #68d153a9;
-  }
+
 
 .title{
     font-weight: 300;
@@ -172,14 +173,14 @@ h2 {
     border: 1px solid #ddd;
     border-radius: 14px;
     padding: 20px;
-    display: flex;
+    
     justify-content: center;
-    width: 49%;
-    height: 12px;
+    width: 50%;
+    height: auto;
     align-items: center;
     margin: 0 auto;
     /* margin-top: 20px; */
-    margin-bottom: 9px;
+    margin-bottom: 20px;
     box-shadow: 0 2px 4px grey;
 }
 
@@ -213,8 +214,8 @@ padding: 40px;
     transition: transform 0.3s ease;
     background-color: rgba(188, 186, 186, 0.61);
     padding: 40px;
-    box-shadow: 1px 2px rgba(128, 128, 128, 0.323);
-    border: 1px solid #8e8d8a;
+    box-shadow: 1px 4px 5px rgba(128, 128, 128, 0.323);
+    border: 1px solid rgba(188, 186, 186, 0.61);;
     
 }
 
@@ -278,6 +279,7 @@ padding: 40px;
     margin: 0 auto;
     margin-bottom: 20px;
     width: 40%;
+    border: 1px solid black;
 }
 
 .voucher-card {
