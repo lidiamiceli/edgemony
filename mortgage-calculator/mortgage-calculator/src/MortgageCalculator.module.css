@@ -61,12 +61,6 @@
 .radioGroup label {
   display: flex;
   align-items: center;
-  border: 1px solid var(--neutral-slate-700);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  padding: 6px;
-  margin: 10px;
-
 }
 
 .calculateButton {
@@ -80,14 +74,13 @@
   cursor: pointer;
   font-weight: 500;
   margin-top: 1rem;
-  font-size: 16px;
 }
 
 .resultsContainer {
   flex: 1;
   background-color: var(--neutral-slate-900);
   color: white;
-  border-radius: 20px;
+  border-radius: 8px;
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -97,7 +90,7 @@
 
 .resultsTitle {
   font-size: 24px;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .results {

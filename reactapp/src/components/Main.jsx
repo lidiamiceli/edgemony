@@ -28,9 +28,9 @@ function Sidebar() {
   );
 }
 
-function Article({ title, content, userId }) {
+function PostItem({ title, content, userId }) {
   return (
-    <div className="post-article">
+    <div className="post-item">
       <div className="background-article">
         <h2>{title}</h2>
         <p>{content}</p>
@@ -46,7 +46,7 @@ function Main() {
       <Sidebar />
       <section id="post-list" className="post-list">
         {posts.map((post) => (
-          <Article
+          <PostItem
             key={post.id}
             title={post.title}
             content={post.body}
@@ -59,4 +59,3 @@ function Main() {
 }
 
 export { Main };
-
