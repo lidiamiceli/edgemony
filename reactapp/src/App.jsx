@@ -14,7 +14,7 @@ function App() {
     <Main />
     <Footer />
     </>
-  );x
+  );
 }
 
 export default App;
