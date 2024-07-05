@@ -1,8 +1,7 @@
 import React from 'react';
 import Display from './components/Display';
 import './App.css';
-import Keyboard from './components/Keyboard';
-import './App.css'; 
+import Keyboard from './components/Keyboard'; 
 
 const App = () => {
   return (

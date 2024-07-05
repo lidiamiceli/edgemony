@@ -13,19 +13,25 @@ function Footer() {
   );
 }
 
+
+
 function FooterMenu() {
   const menuItems = [
+    {
+      label: "Articles",
+      children: [{ label: "Science" }, { label: "Politics" }, { label: "Economy" }, { label: "News" }],
+    },
     {
       label: "About us",
       children: [{ label: "Magazine" }, { label: "Link" }, { label: "Articles" }],
     },
     {
       label: "Socials",
-      children: [
-        { label: "Twitter" },
-        { label: "Linkedin" },
-        { label: "Blog" },
-      ],
+      children: [{ label: "Twitter" }, { label: "Linkedin" }, { label: "Blog" }],
+    },
+    {
+      label: "Contact us",
+      children: [{ label: "Twitter" }, { label: "Linkedin" }],
     },
   ];
 
