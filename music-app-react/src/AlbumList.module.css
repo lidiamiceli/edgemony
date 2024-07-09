@@ -2,18 +2,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--container-color);
+  background-color: #43c432;
   border-radius: 10px;
   width: 100%;
   margin: 0 auto;
   color: whitesmoke;
   }
+
   .albumItem {
+    list-style-type: none;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-    color: whitesmoke;
+    align-items: center;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgb(38, 38, 38);
 
   }
   .albumItem button {
