@@ -8,6 +8,11 @@
   --white: hsl(0, 0%, 100%);
   --black: (with 75% opacity for lightbox background): hsl(0, 0%, 0%);
   }
+
+  body{
+  max-width: 80%;
+  margin: 0 auto;
+  }
   
   @font-face {
     font-family: "KumbSans";
@@ -32,11 +37,10 @@
   
   p {
     font-size: 16px;
+    color: var(--dark-grayish-blue)
   }
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start; /* Allinea gli elementi all'inizio del container */
-    justify-content: flex-start; /* Allinea gli elementi a sinistra */
-    gap: 20px; /* Spazio tra gli elementi */
+
+  li {
+    color: var(--dark-grayish-blue);
+font-weight: 500;
   }

@@ -1,7 +1,6 @@
 import classNames from "classnames";
 import ShowBox from "../showbox/ShowBox";
 import ThumbNail from "../thumbnail/ThumbNail";
-import TitleDescription from "../TitleDescription";
 
 import { useState } from "react";
 

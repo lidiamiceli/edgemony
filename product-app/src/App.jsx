@@ -1,29 +1,20 @@
 import React from "react";
 import NavBar from "./components/navbar/NavBar";
-import Button from "./components/button/Button";
-import Counter from "./components/counter/Counter";
-import IconCart from "./components/icons/IconCart";
 import ProductLightBox from "./components/product-lightbox/ProductLightBox";
-import TitleDescription from "./components/TitleDescription";
-import "./App.css";
+import ProductDescription from "./components/product-description/ProductDescription";
+import classNames from "classnames";
+import styles from "./App.module.css";
 
 function App() {
   return (
     <>
-<NavBar />
-      <div className="app-container">
-        <div className="product-container">
+    <NavBar />
+    <section className={classNames(styles.container)}>
+    <div className={classNames(styles["product-content"])}>
           <ProductLightBox />
+          <ProductDescription />
         </div>
-        <div className="details-container">
-          <TitleDescription />
-          <div className="details-container"></div>
-          <Counter />
-          <Button>
-            <IconCart fill="#000" />
-          </Button>
-        </div>
-      </div>
+    </section>
     </>
   );
 }
