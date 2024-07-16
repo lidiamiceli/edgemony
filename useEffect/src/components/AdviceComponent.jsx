@@ -36,7 +36,7 @@ const AdviceComponent = () => {
   // 3. Chiamata quando lo stato cambia
   useEffect(() => {
     if (counter > 0) {
-      console.log(`Chiamata API quando il contatore cambia: ${counter}`);
+      console.log(`chiamata API quando il contatore cambia: ${counter}`);
       fetch('https://api.adviceslip.com/advice')
         .then(response => response.json())
         .then(data => {
@@ -46,9 +46,10 @@ const AdviceComponent = () => {
         })
         .catch(error => console.error('Errore nella fetch:', error));
     }
-  }, [counter]);
+  }, 
+  [counter]);
 
-  // Chiamata periodica
+  // chiamata periodica
   useEffect(() => {
     console.log('chiamata API ogni 10 secondi');
     const intervalId = setInterval(() => {
@@ -60,10 +61,11 @@ const AdviceComponent = () => {
           setAdviceId(data.slip.id);
         })
         .catch(error => console.error('Errore nella fetch:', error));
-    }, 10000);
+    }, 5000);
 
     return () => clearInterval(intervalId);
-  }, []);
+  }, 
+  []);
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-900">
@@ -71,15 +73,8 @@ const AdviceComponent = () => {
         <h2 className="text-green-500 text-sm mb-2">ADVICE #{adviceId}</h2>
         <p className="text-xl mb-4">"{advice}"</p>
         <div className="flex justify-center">
-          <button
-            className="bg-green-500 p-2 rounded-full"
-            onClick={() => setCounter(counter + 1)}
-          >
-            <svg
-              className="w-6 h-6 text-white"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-            >
+          <button className="bg-green-500 p-2 rounded-full" onClick={() => setCounter(counter + 1)} >
+            <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
               <path d="M12 0C5.372 0 0 5.372 0 12c0 6.628 5.372 12 12 12 6.628 0 12-5.372 12-12C24 5.372 18.628 0 12 0zm-.25 18.5h-.5V16h.5v2.5zm1.5 0h-.5V16h.5v2.5zm0-4h-2.5v-2.5h2.5V14.5z" />
             </svg>
           </button>
