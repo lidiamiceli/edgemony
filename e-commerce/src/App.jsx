@@ -11,6 +11,8 @@ const App = () => {
           <Link className="mr-4" to="/">Home</Link>
           <Link className="mr-4" to="/abbigliamento">Abbigliamento</Link>
           <Link className="mr-4" to="/calzature">Calzature</Link>
+          <Link className="mr-4" to="/hi-tech">Hi-Tech</Link>
+          <Link className="mr-4" to="/accessori">Accessori</Link>
           <Link to="/cart">Carrello</Link>
 
         </nav>
